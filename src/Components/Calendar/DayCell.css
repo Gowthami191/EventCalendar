@@ -1,0 +1,31 @@
+.day-cell {
+    flex: 1;
+    min-height: 80px;
+    border: 1px solid #eee;
+    background: #fafbfc;
+    position: relative;
+    padding: 2px 2px 2px 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  .day-cell.not-current {
+    background: #f2f2f2;
+    color: #aaa;
+  }
+  .day-cell.today {
+    border: 2px solid #1976d2;
+    background: #e3eafc;
+  }
+  .day-number {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .events-list {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  

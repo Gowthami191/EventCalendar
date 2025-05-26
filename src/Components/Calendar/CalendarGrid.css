@@ -1,0 +1,21 @@
+.calendar-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .calendar-days-row {
+    display: flex;
+  }
+  .calendar-day-name {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    padding: 6px 0;
+    background: #e3eafc;
+    color: #1976d2;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .calendar-row {
+    display: flex;
+  }
+  
