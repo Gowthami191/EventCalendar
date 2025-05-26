@@ -1,0 +1,64 @@
+.home-page {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  }
+  
+  .animated-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #1976d2;
+    animation: fadeInDown 1s;
+  }
+  
+  @keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+  }
+  
+  .calendar-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 1.5rem auto 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  
+  .intro-text {
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .features-list {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 2rem;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .features-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+  }
+  
+  .go-calendar-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 1.5rem;
+  }
+  
+  .go-calendar-btn:hover {
+    background: #1253a2;
+  }
+  
