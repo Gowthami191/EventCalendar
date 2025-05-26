@@ -1,0 +1,39 @@
+.event-item {
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.92rem;
+    margin-bottom: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: box-shadow 0.2s;
+    box-shadow: 0 1px 3px #0001;
+  }
+  .event-item:hover {
+    box-shadow: 0 2px 8px #0002;
+  }
+  .event-title {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .event-recur {
+    font-size: 1.1em;
+  }
+  .event-action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 1em;
+    padding: 0 2px;
+    color: #fff;
+    transition: color 0.2s;
+  }
+  .event-action-btn:hover {
+    color: #ffeb3b;
+  }
+  

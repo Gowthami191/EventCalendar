@@ -1,0 +1,62 @@
+.event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .event-form label {
+    font-size: 0.98rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .event-form input[type="text"],
+  .event-form input[type="datetime-local"],
+  .event-form input[type="number"],
+  .event-form input[type="date"],
+  .event-form textarea,
+  .event-form select {
+    width: 100%;
+    padding: 4px 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+  .event-form textarea {
+    resize: vertical;
+    min-height: 40px;
+  }
+  .days-of-week {
+    display: flex;
+    gap: 6px;
+    margin-top: 2px;
+  }
+  .form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .form-actions button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 3px;
+    background: #1976d2;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .form-actions button.danger {
+    background: #d32f2f;
+  }
+  .form-actions button:hover {
+    background: #1565c0;
+  }
+  .form-actions button.danger:hover {
+    background: #b71c1c;
+  }
+  .error {
+    color: #d32f2f;
+    font-size: 0.95em;
+    margin-bottom: 4px;
+  }
+  
